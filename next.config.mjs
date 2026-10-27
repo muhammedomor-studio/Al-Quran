@@ -2,9 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  experimental: {
-    typedRoutes: true
-  }
+  output: "export",
+  trailingSlash: true,
+  images: { unoptimized: true },
+  experimental: { typedRoutes: true }
 };
-
 export default nextConfig;
